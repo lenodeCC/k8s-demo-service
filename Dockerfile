@@ -28,7 +28,7 @@ VOLUME /data
 
 EXPOSE 50051
 
-HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 CMD [ "node","dist/bin/healthCheck" ]
+# HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 CMD [ "node","dist/bin/healthCheck" ]
 
 ENTRYPOINT ["scripts/docker-entrypoint.sh"]
 
