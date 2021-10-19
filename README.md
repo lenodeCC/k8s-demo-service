@@ -1,7 +1,7 @@
 # k8s-demo-service  容器测试GRPC服务demo
 
 ## 用途
-为demo-bff提供grpc福娃五
+为demo-bff提供grpc服务
 
 ## bff层
 [demo-bff](https://github.com/lenodeCC/k8s-demo-bff)
