@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY ./package.json /app
 
-RUN yarn config set registry ${REGISTRY} && yarn
+RUN yarn config set registry ${REGISTRY} && yarn --build-from-source
 
 COPY ./ /app
 
